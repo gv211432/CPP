@@ -1,0 +1,1 @@
+PalindromeInt.o: PalindromeInt.cpp

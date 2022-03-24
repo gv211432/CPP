@@ -1,0 +1,143 @@
+{
+  "makefile.extensionOutputFolder": "./.vscode",
+  "textmarker.savedHighlights": [
+    {
+      "pattern": {
+        "type": "string",
+        "expression": "// ╻┏ ┏━┓╻ ╻┏━┓╻┏ ┏━┓╻  ┏━┓   ┏┳┓╻┏┓╻╻┏┳┓╻ ╻┏┳┓   ┏━┓┏━┓┏━┓┏┓╻┏┓╻╻┏┓╻┏━╸\n// ┣┻┓┣┳┛┃ ┃┗━┓┣┻┓┣━┫┃  ┗━┓   ┃┃┃┃┃┗┫┃┃┃┃┃ ┃┃┃┃   ┗━┓┣━┛┣━┫┃┗┫┃┗┫┃┃┗┫┃╺┓\n// ╹ ╹╹┗╸┗━┛┗━┛╹ ╹╹ ╹┗━╸┗━┛   ╹ ╹╹╹ ╹╹╹ ╹┗━┛╹ ╹   ┗━┛╹  ╹ ╹╹ ╹╹ ╹╹╹ ╹┗━┛\n// ╺┳╸┏━┓┏━╸┏━╸   ┏━┓╻  ┏━╸┏━┓┏━┓╻╺┳╸╻ ╻┏┳┓\n//  ┃ ┣┳┛┣╸ ┣╸    ┣━┫┃  ┃╺┓┃ ┃┣┳┛┃ ┃ ┣━┫┃┃┃\n//  ╹ ╹┗╸┗━╸┗━╸   ╹ ╹┗━╸┗━┛┗━┛╹┗╸╹ ╹ ╹ ╹╹ ╹\n",
+        "ignoreCase": false,
+        "wholeMatch": false
+      },
+      "color": "darkgoldenrod"
+    },
+    {
+      "pattern": {
+        "type": "string",
+        "expression": "<!-- ┏━┓╻  ╻     ┏━┓┏┓ ┏━┓╻ ╻╺┳╸   ╻┏ ┏━┓╻ ╻┏━┓╻┏ ┏━┓╻  ┏━┓┏┳┓┏━┓╺┳╸\n     ┣━┫┃  ┃     ┣━┫┣┻┓┃ ┃┃ ┃ ┃    ┣┻┓┣┳┛┃ ┃┗━┓┣┻┓┣━┫┃  ┗━┓┃┃┃┗━┓ ┃\n     ╹ ╹┗━╸┗━╸   ╹ ╹┗━┛┗━┛┗━┛ ╹    ╹ ╹╹┗╸┗━┛┗━┛╹ ╹╹ ╹┗━╸┗━┛╹ ╹┗━┛ ╹  -->\n",
+        "ignoreCase": false,
+        "wholeMatch": false
+      },
+      "color": "darkmagenta"
+    },
+    {
+      "pattern": {
+        "type": "string",
+        "expression": "Kruskal’s Minimum Spanning Tree Algorithm | Greedy Algo-2\n",
+        "ignoreCase": false,
+        "wholeMatch": false
+      },
+      "color": "darkolivegreen"
+    },
+    {
+      "pattern": {
+        "type": "string",
+        "expression": "Kruskal’s Minimum Spanning Tree Algorithm\n",
+        "ignoreCase": false,
+        "wholeMatch": false
+      },
+      "color": "darkslateblue"
+    },
+    {
+      "pattern": {
+        "type": "string",
+        "expression": "// ====================================================================\n",
+        "ignoreCase": false,
+        "wholeMatch": false
+      },
+      "color": "darkslategray"
+    },
+    {
+      "pattern": {
+        "type": "string",
+        "expression": "// The steps for finding MST using Kruskal’s algorithm\n\n//     1. Sort all the edges in non-decreasing order of their weight.\n//     2. Pick the smallest edge. Check if it forms a cycle with the spanning tree formed so far.\n//        If cycle is not formed, include this edge. Else, discard it.\n//     3. Repeat step#2 until there are (V-1) edges in the spanning tree.",
+        "ignoreCase": false,
+        "wholeMatch": false
+      },
+      "color": "darkviolet"
+    },
+    {
+      "pattern": {
+        "type": "string",
+        "expression": "<!-- ┏━┓╻  ╻   ┏━┓┏┓ ┏━┓╻ ╻╺┳╸   ╻ ╻╻ ╻┏━╸┏━╸┏┳┓┏━┓┏┓╻┏━╸┏━┓╺┳┓┏━╸\n     ┣━┫┃  ┃   ┣━┫┣┻┓┃ ┃┃ ┃ ┃    ┣━┫┃ ┃┣╸ ┣╸ ┃┃┃┣━┫┃┗┫┃  ┃ ┃ ┃┃┣╸\n     ╹ ╹┗━╸┗━╸ ╹ ╹┗━┛┗━┛┗━┛ ╹    ╹ ╹┗━┛╹  ╹  ╹ ╹╹ ╹╹ ╹┗━╸┗━┛╺┻┛┗━╸ -->\n",
+        "ignoreCase": false,
+        "wholeMatch": false
+      },
+      "color": "darkblue"
+    },
+    {
+      "pattern": {
+        "type": "string",
+        "expression": "Step 1. Build a min heap that contains 6 nodes where each node represents root of a tree with single node.",
+        "ignoreCase": false,
+        "wholeMatch": false
+      },
+      "color": "darkturquoise"
+    },
+    {
+      "pattern": {
+        "type": "string",
+        "expression": "Step 2 Extract two minimum frequency nodes from min heap. Add a new internal node with frequency 5 + 9 = 14.",
+        "ignoreCase": false,
+        "wholeMatch": false
+      },
+      "color": "darkgray"
+    },
+    {
+      "pattern": {
+        "type": "string",
+        "expression": "Step 3: Extract two minimum frequency nodes from heap. Add a new internal node with frequency 12 + 13 = 25",
+        "ignoreCase": false,
+        "wholeMatch": false
+      },
+      "color": "darkkhaki"
+    },
+    {
+      "pattern": {
+        "type": "string",
+        "expression": "Step 4: Extract two minimum frequency nodes. Add a new internal node with frequency 14 + 16 = 30\n",
+        "ignoreCase": false,
+        "wholeMatch": false
+      },
+      "color": "darkorange"
+    },
+    {
+      "pattern": {
+        "type": "string",
+        "expression": "<!-- ===================================================================== -->\n",
+        "ignoreCase": false,
+        "wholeMatch": false
+      },
+      "color": "darksalmon"
+    },
+    {
+      "pattern": {
+        "type": "string",
+        "expression": "╻ ╻╻ ╻┏━╸┏━╸┏┳┓┏━┓┏┓╻┏━╸┏━┓╺┳┓┏━╸   ╺┳┓┏━┓┏━╸╻ ╻┏┳┓┏━╸┏┓╻╺┳╸┏━┓╺┳╸╻┏━┓┏┓╻\n┣━┫┃ ┃┣╸ ┣╸ ┃┃┃┣━┫┃┗┫┃  ┃ ┃ ┃┃┣╸     ┃┃┃ ┃┃  ┃ ┃┃┃┃┣╸ ┃┗┫ ┃ ┣━┫ ┃ ┃┃ ┃┃┗┫\n╹ ╹┗━┛╹  ╹  ╹ ╹╹ ╹╹ ╹┗━╸┗━┛╺┻┛┗━╸   ╺┻┛┗━┛┗━╸┗━┛╹ ╹┗━╸╹ ╹ ╹ ╹ ╹ ╹ ╹┗━┛╹ ╹\n",
+        "ignoreCase": false,
+        "wholeMatch": false
+      },
+      "color": "darkseagreen"
+    },
+    {
+      "pattern": {
+        "type": "string",
+        "expression": "The pseudocode is as following:\n",
+        "ignoreCase": false,
+        "wholeMatch": false
+      },
+      "color": "gray"
+    },
+    {
+      "pattern": {
+        "type": "string",
+        "expression": "<!-- ================================================================ -->\n",
+        "ignoreCase": false,
+        "wholeMatch": false
+      },
+      "color": "gray"
+    }
+  ],
+  "files.associations": {
+    "ostream": "cpp"
+  }
+}

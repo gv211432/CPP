@@ -1,0 +1,9 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/boss/Documents/C++_projects/SimpleNetwork'
+ 
+g++ -std=c++11 -Wall -o obj/SimpleNetwork.o -c src/SimpleNetwork.cpp
+g++ -std=c++11 -Wall -o SimpleNetwork obj/SimpleNetwork.o  -lboost_system -lboost_thread -lpthread
+ 
+./SimpleNetwork
+make: Leaving directory '/home/boss/Documents/C++_projects/SimpleNetwork'
+ 

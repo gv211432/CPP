@@ -1,0 +1,1 @@
+PrimsMST.o: PrimsMST.cpp

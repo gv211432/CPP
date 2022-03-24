@@ -1,0 +1,1 @@
+HuffmanCode.o: HuffmanCode.cpp

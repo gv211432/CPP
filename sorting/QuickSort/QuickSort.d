@@ -1,0 +1,1 @@
+QuickSort.o: QuickSort.cpp

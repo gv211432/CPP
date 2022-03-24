@@ -1,0 +1,1 @@
+KruskalsMST.o: KruskalsMST.cpp

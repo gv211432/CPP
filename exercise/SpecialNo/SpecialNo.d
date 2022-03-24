@@ -1,0 +1,1 @@
+SpecialNo.o: SpecialNo.cpp

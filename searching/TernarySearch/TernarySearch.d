@@ -1,0 +1,1 @@
+TernarySearch.o: TernarySearch.cpp

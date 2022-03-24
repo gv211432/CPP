@@ -1,0 +1,1 @@
+BeautifulNo.o: BeautifulNo.cpp

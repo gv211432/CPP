@@ -1,0 +1,1 @@
+EqualAandB.o: EqualAandB.cpp

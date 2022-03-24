@@ -1,0 +1,1 @@
+PrimsAdj.o: PrimsAdj.cpp

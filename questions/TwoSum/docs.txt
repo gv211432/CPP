@@ -1,0 +1,67 @@
+╺┳╸╻ ╻┏━┓┏━┓╻ ╻┏┳┓   ╺┳┓┏━┓┏━╸╻ ╻┏┳┓┏━╸┏┓╻╺┳╸┏━┓╺┳╸╻┏━┓┏┓╻
+ ┃ ┃╻┃┃ ┃┗━┓┃ ┃┃┃┃    ┃┃┃ ┃┃  ┃ ┃┃┃┃┣╸ ┃┗┫ ┃ ┣━┫ ┃ ┃┃ ┃┃┗┫
+ ╹ ┗┻┛┗━┛┗━┛┗━┛╹ ╹   ╺┻┛┗━┛┗━╸┗━┛╹ ╹┗━╸╹ ╹ ╹ ╹ ╹ ╹ ╹┗━┛╹ ╹
+
+Dust
+
+// int BinSearch(int l, int h)
+    // {
+    //     if (l < h)
+    //     {
+    //         int mid = l + (h - l) / 2;
+    //         // std::cout << (*this->nums)[mid] << std::endl;
+
+    //         if (currNo + (*this->nums)[mid] == target)
+    //             return (mid - l);
+
+    //         if (currNo + (*this->nums)[mid] > target)
+    //         {
+    //             // move left
+    //             return (l + BinSearch(l, mid - 1));
+    //         }
+    //         else
+    //         {
+    //             // move right
+    //             return (l + BinSearch(mid + 1, h));
+    //         }
+    //     }
+    //     return 0;
+    // };
+
+    // this->nums = &nums;
+
+    // int indextrack[nums.size()];
+
+    // sort(nums.begin(), nums.end(), [](int x, int y)
+    //      { return x < y; });
+
+    // for (size_t i = 0; i < nums.size(); i++)
+    // {
+    //     this->currNo = nums[i];
+    //     size_t index = BinSearch(0, nums.size() - 1);
+
+    //     if (currNo + nums[index] == target && i != index)
+    //     {
+    //         v.clear();
+    //         v.push_back(i);
+    //         v.push_back(index);
+
+    //         // std::cout << "The numbers are : " << currNo << ", " << nums[index] << std::endl;
+    //         std::cout << "[ " << v[0] << ", " << v[1] << " ]" << std::endl;
+    //         for (auto x : v)
+    //         {
+    //             std::cout << x << std::endl;
+    //         }
+    //         return v;
+    //     }
+    // }
+
+    // for (auto x : *this->nums)
+    // {
+    //     std::cout << x << std::endl;
+    // }
+
+    // return v;
+
+
+   

@@ -1,0 +1,1 @@
+KruskalsMSTgkg.o: KruskalsMSTgkg.cpp

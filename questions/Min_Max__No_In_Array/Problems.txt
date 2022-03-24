@@ -1,0 +1,14 @@
+1> Cast from char * to int loses precision
+
+solution:
+
+This is the offending line:
+points[i][j]=(int)pch;
+
+You should replace it with
+points[i][j]=atoi(pch);
+
+What I know at this time is.. :(
+ str.toInt();
+
+=====================================================================
