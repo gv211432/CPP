@@ -1,0 +1,1 @@
+SineArray.o: SineArray.cpp

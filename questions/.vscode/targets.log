@@ -1,6 +1,4 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** No rule to make target 'all'.  Stop.
- 
 # GNU Make 4.3
 # Built for x86_64-redhat-linux-gnu
 # Copyright (C) 1988-2020 Free Software Foundation, Inc.
@@ -8,7 +6,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Mar 24 21:03:57 2022
+# Make data base, printed on Thu Mar 31 15:37:28 2022
 
 # Variables
 
@@ -21,7 +19,7 @@ NO_AT_BRIDGE = 1
 # environment
 GJS_DEBUG_OUTPUT = stderr
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-0a69a356-a49f-4e0b-bc8d-79d31aea5577.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-84b0595b-2d6b-4106-8191-fc292f74bdaf.sock
 # environment
 VSCODE_CWD = /home/boss
 # environment
@@ -61,7 +59,7 @@ VSCODE_CODE_CACHE_PATH = /home/boss/.config/Code/CachedData/c722ca6c7eed3d7987c0
 # environment
 LANG = C
 # environment
-XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.9ALFJ1
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.E67OJ1
 # default
 .LOADED := 
 # default
@@ -99,13 +97,13 @@ MAKEFILE_LIST :=
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 4035
+VSCODE_PID = 17471
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/unix:@/tmp/.ICE-unix/2424,unix/unix:/tmp/.ICE-unix/2424
+SESSION_MANAGER = local/unix:@/tmp/.ICE-unix/16602,unix/unix:/tmp/.ICE-unix/16602
 # automatic
 *F = $(notdir $*)
 # environment
@@ -133,7 +131,7 @@ MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = /home/boss/.cargo/bin:/home/boss/.local/bin:/home/boss/bin:/usr/lib64/ccache:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/var/lib/snapd/snap/bin:/home/boss/Documents/myPersonalScripts/bash_prog/:/home/boss/Documents/myPersonalScripts/bash_prog/
+PATH = /home/boss/.cargo/bin:/home/boss/.local/bin:/home/boss/bin:/usr/lib64/ccache:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/var/lib/snapd/snap/bin:/home/boss/Documents/myPersonalScripts/bash_prog/:/home/boss/Documents/myPersonalScripts/bash_prog/:/home/boss/Documents/myPersonalScripts/bash_prog/
 # environment
 MOZ_GMP_PATH = /usr/lib64/mozilla/plugins/gmp-gmpopenh264/system-installed
 # default
@@ -141,7 +139,7 @@ MAKEFILES :=
 # automatic
 ^F = $(notdir $^)
 # environment
-INVOCATION_ID = a6f331bdc65241489b5f6bdf2f3e5439
+INVOCATION_ID = 0be9ada2aa174e8da82938a389bd4663
 # environment
 VSCODE_LOG_NATIVE = false
 # environment
@@ -167,7 +165,7 @@ GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
 # makefile
 .DEFAULT_GOAL := 
 # environment
-SYSTEMD_EXEC_PID = 2447
+SYSTEMD_EXEC_PID = 16640
 # environment
 HISTCONTROL = ignoredups
 # environment
@@ -179,19 +177,19 @@ USER = boss
 # default
 MAKE_VERSION := 4.3
 # environment
-MANAGERPID = 2276
+MANAGERPID = 5560
 # environment
 which_declare = declare -f
 # environment
 DEBUGINFOD_URLS = https://debuginfod.fedoraproject.org/ 
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 4035
+GIO_LAUNCHED_DESKTOP_FILE_PID = 17471
 # environment
 _ = /usr/bin/make
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
-JOURNAL_STREAM = 8:33856
+JOURNAL_STREAM = 8:116119
 # environment
 XDG_SESSION_CLASS = user
 # environment
@@ -225,9 +223,9 @@ GDMSESSION = gnome
 
 # Directories
 
-# . (device 41, inode 2891487): 16 files, no impossibilities.
+# . (device 41, inode 2891487): 30 files, no impossibilities.
 
-# 16 files, no impossibilities in 1 directories.
+# 30 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -277,12 +275,15 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 24 / storage = 281 B / avg = 11 B
-# current buf: size = 8162 B / used = 281 B / count = 24 / avg = 11 B
+# strcache buffers: 1 (0) / strings = 38 / storage = 435 B / avg = 11 B
+# current buf: size = 8162 B / used = 435 B / count = 38 / avg = 11 B
 
-# strcache performance: lookups = 27 / hit rate = 11%
+# strcache performance: lookups = 41 / hit rate = 7%
 # hash-table stats:
-# Load=24/8192=0%, Rehash=0, Collisions=0/27=0%
-# Finished Make data base on Thu Mar 24 21:03:57 2022
+# Load=38/8192=0%, Rehash=0, Collisions=0/41=0%
+# Finished Make data base on Thu Mar 31 15:37:28 2022
+ 
+make: *** No rule to make target 'all'.  Stop.
+
 
  

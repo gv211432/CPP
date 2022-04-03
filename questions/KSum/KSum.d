@@ -1,0 +1,1 @@
+KSum.o: KSum.cpp

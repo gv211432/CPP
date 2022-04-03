@@ -1,0 +1,1 @@
+LongestCommonPrefix.o: LongestCommonPrefix.cpp
