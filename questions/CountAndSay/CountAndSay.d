@@ -1,0 +1,1 @@
+CountAndSay.o: CountAndSay.cpp

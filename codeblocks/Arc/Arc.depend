@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1649261485 source:c:\users\boss\documents\c++_projects\codeblocks\arc\arc.c
+	<stdio.h>
+
+1649264734 source:c:\users\boss\documents\c++_projects\codeblocks\arc\ar.cpp
+	<windows.h>
+

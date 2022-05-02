@@ -1,0 +1,1 @@
+SearchInsertPosition.o: SearchInsertPosition.cpp

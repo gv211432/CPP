@@ -1,0 +1,1 @@
+LongestValidParanthesis.o: LongestValidParanthesis.cpp

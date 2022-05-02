@@ -1,0 +1,1 @@
+UglyNumber.o: UglyNumber.cpp

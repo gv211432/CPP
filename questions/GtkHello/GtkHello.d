@@ -1,0 +1,1 @@
+GtkHello.o: GtkHello.cpp

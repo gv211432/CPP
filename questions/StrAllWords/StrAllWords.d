@@ -1,0 +1,1 @@
+StrAllWords.o: StrAllWords.cpp

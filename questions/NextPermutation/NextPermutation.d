@@ -1,0 +1,1 @@
+NextPermutation.o: NextPermutation.cpp
