@@ -1,0 +1,1 @@
+DecodeWays.o: DecodeWays.cpp

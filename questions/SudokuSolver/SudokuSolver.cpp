@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#include "../utilities/utilities.h"
 using namespace std;
 
 #define N 9
@@ -105,8 +106,21 @@ int main()
                       {0, 0, 0, 0, 0, 0, 0, 7, 4},
                       {0, 0, 5, 2, 0, 6, 3, 0, 0}};
 
+    int grid2[N][N] = {{3, 0, 6, 5, 0, 8, 4, 0, 0},
+                       {5, 2, 0, 0, 0, 0, 0, 0, 0},
+                       {0, 8, 7, 0, 0, 0, 0, 3, 1},
+                       {0, 0, 3, 0, 1, 0, 0, 8, 0},
+                       {9, 0, 0, 8, 6, 3, 0, 0, 5},
+                       {0, 5, 0, 0, 9, 0, 6, 0, 0},
+                       {1, 3, 0, 0, 0, 0, 2, 5, 0},
+                       {0, 0, 0, 0, 0, 0, 0, 7, 4},
+                       {0, 0, 5, 2, 0, 6, 3, 0, 0}};
+
+    boxes::Box.Box_2(*grid, 9, 9);
+    boxes::Box.Box_2(*grid, 9, "r", "mukesh is ");
+
     if (SolveSudoku(grid, 0, 0))
-        print(grid);
+        boxes::Box.Box_2(*grid, 9, 9, " ", " ", *grid2, 9, 9);
     else
         cout << "No solution exists\n";
 

@@ -1,0 +1,1 @@
+FindAllAnagrams.o: FindAllAnagrams.cpp

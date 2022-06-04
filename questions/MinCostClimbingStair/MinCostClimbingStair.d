@@ -1,0 +1,1 @@
+MinCostClimbingStair.o: MinCostClimbingStair.cpp

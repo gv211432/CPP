@@ -1,1 +1,2 @@
-SudokuSolver.o: SudokuSolver.cpp
+SudokuSolver.o: SudokuSolver.cpp ../utilities/utilities.h \
+ ../utilities/table.h

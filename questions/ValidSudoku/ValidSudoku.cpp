@@ -1,5 +1,6 @@
 // Main file of the Project
 #include <bits/stdc++.h>
+#include "../utilities/utilities.h"
 using namespace std;
 
 class Solution
@@ -77,8 +78,24 @@ public:
                 }
             }
         }
+
         return true;
     }
+};
+
+vector<vector<int>> con(vector<vector<char>> &b)
+{
+    vector<vector<int>> v(b.size(), vector<int>(b[0].size(), 1));
+    for (size_t i = 0; i < b.size(); i++)
+    {
+        for (size_t j = 0; j < b[0].size(); j++)
+        {
+            if (b[i][j] == '.')
+                continue;
+            v[i][j] = 0;
+        }
+    }
+    return v;
 };
 
 int main(int arg, char *argv[])
@@ -86,8 +103,9 @@ int main(int arg, char *argv[])
     vector<vector<char>> b =
         {{'6', '3', '.', '.', '7', '.', '.', '.', '.'}, {'6', '.', '.', '1', '9', '5', '.', '.', '.'}, {'.', '9', '8', '.', '.', '.', '.', '6', '.'}, {'8', '.', '.', '.', '6', '.', '.', '.', '3'}, {'4', '.', '.', '8', '.', '3', '.', '.', '1'}, {'7', '.', '.', '.', '2', '.', '.', '.', '6'}, {'.', '6', '.', '.', '.', '.', '2', '8', '.'}, {'.', '.', '.', '4', '1', '9', '.', '.', '5'}, {'.', '.', '.', '.', '8', '.', '.', '7', '9'}};
     Solution2 s;
-
+    // boxes::Box.Box_2(b, " ", " ", con(b));
     s.isValidSudoku(b) ? cout << "Its valid" : cout << "Not valid";
     std::cout << std::endl;
+    leetcode::Box.Box_2(b);
     return 0;
 }

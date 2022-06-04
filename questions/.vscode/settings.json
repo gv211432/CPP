@@ -221,6 +221,14 @@
     "typeindex": "cpp",
     "typeinfo": "cpp",
     "utility": "cpp",
-    "variant": "cpp"
-  }
+    "variant": "cpp",
+    "expected": "cpp",
+    "spanstream": "cpp",
+    "stacktrace": "cpp"
+  },
+  "editor.fontSize": 15,
+  // "workbench.colorCustomizations": {
+  //   "editor.background": "#272726ae"
+  // },
+  "editor.semanticTokenColorCustomizations": {}
 }

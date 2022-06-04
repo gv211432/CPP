@@ -1,0 +1,45 @@
+# ┏━┓┏━┓╺┳╸┏━┓╺┳╸┏━╸╻┏┳┓┏━┓┏━╸┏━╸   ╺┳┓┏━┓┏━╸╻ ╻┏┳┓┏━╸┏┓╻╺┳╸┏━┓╺┳╸╻┏━┓┏┓╻
+# ┣┳┛┃ ┃ ┃ ┣━┫ ┃ ┣╸ ┃┃┃┃┣━┫┃╺┓┣╸     ┃┃┃ ┃┃  ┃ ┃┃┃┃┣╸ ┃┗┫ ┃ ┣━┫ ┃ ┃┃ ┃┃┗┫
+# ╹┗╸┗━┛ ╹ ╹ ╹ ╹ ┗━╸╹╹ ╹╹ ╹┗━┛┗━╸   ╺┻┛┗━┛┗━╸┗━┛╹ ╹┗━╸╹ ╹ ╹ ╹ ╹ ╹ ╹┗━┛╹ ╹
+
+
+int main(int arg, char *argv[])
+{
+
+    if (arg <= 1)
+    {
+        std::cout << "Nothiing to do.. \n Type atv -h for help" << std::endl;
+        return 0;
+    }
+    // Solution s;
+    std::cout << std::endl;
+    string str = *(argv + 1);
+
+    if (str == "-h" || str == "--help")
+    {
+        std::cout << "This program converts [[1,2,3],[4,5,6],[7,8,9]] to {{1,2,3},{4,5,6},{7,8,9}} format!!" << std::endl;
+        return 0;
+    }
+
+    for (auto s : str)
+    {
+        switch (s)
+        {
+        case ' ':
+            break;
+            case '[':
+            cout << "{";
+            break;
+        case ']':
+        cout << "}";
+            break;
+            default:
+            cout << s;
+            break;
+        }
+    }
+    std::cout << std::endl
+    << endl;
+    
+    return 0;
+}

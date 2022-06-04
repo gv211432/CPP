@@ -27,6 +27,6 @@ int main(int arg, char *argv[])
     if (atoi(argv[1]) > 1000000000 || atoi(argv[1]) < 0)
         std::cout << "No is out of Range!!" << std::endl;
     else
-        std::cout << "Factorial of " << argv[1] << " is " << s.Fibonacci(atoi(argv[1])) << std::endl;
+        std::cout << "First "<<argv[1]<<" fibonacci numbers are : \n" << s.Fibonacci(atoi(argv[1])) << std::endl;
     return 0;
 }

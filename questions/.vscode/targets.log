@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon May  2 11:03:51 2022
+# Make data base, printed on Wed May 25 13:23:16 2022
 
 # Variables
 
@@ -21,7 +21,7 @@ NO_AT_BRIDGE = 1
 # environment
 GJS_DEBUG_OUTPUT = stderr
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-31d46811-9144-4823-aee7-0b9503bdb6c5.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-21ceba5b-3b9c-414a-b741-2599a5161f60.sock
 # environment
 VSCODE_CWD = /home/boss
 # environment
@@ -31,7 +31,7 @@ MAKE_COMMAND := make
 # environment
 define BASH_FUNC_which%%
 () {  ( alias;
- eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot "$@"
+ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@
 }
 endef
 # automatic
@@ -45,7 +45,7 @@ PWD = /home/boss/Documents/C++_projects/questions
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
-HOSTNAME = fedora35
+HOSTNAME = fedora36
 # environment
 MAIL = /var/spool/mail/boss
 # environment
@@ -57,11 +57,11 @@ VSCODE_LOG_STACK = false
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = /home/boss/.config/Code/CachedData/dfd34e8260c270da74b5c2d86d61aee4b6d56977
+VSCODE_CODE_CACHE_PATH = /home/boss/.config/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
 # environment
 LANG = C
 # environment
-XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.BU5BL1
+XAUTHORITY = /run/user/1000/.mutter-Xwaylandauth.6ADPM1
 # default
 .LOADED := 
 # default
@@ -99,13 +99,13 @@ MAKEFILE_LIST :=
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 4084
+VSCODE_PID = 8890
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/unix:@/tmp/.ICE-unix/2519,unix/unix:/tmp/.ICE-unix/2519
+SESSION_MANAGER = local/unix:@/tmp/.ICE-unix/7639,unix/unix:/tmp/.ICE-unix/7639
 # automatic
 *F = $(notdir $*)
 # environment
@@ -125,8 +125,6 @@ MAKECMDGOALS := all
 # environment
 XMODIFIERS = @im=ibus
 # environment
-PLATFORMIO_CALLER = vscode
-# environment
 DOTNET_BUNDLE_EXTRACT_BASE_DIR = /home/boss/.cache/dotnet_bundle_extract
 # environment
 GJS_DEBUG_TOPICS = JS ERROR;JS LOG
@@ -145,7 +143,7 @@ MAKEFILES :=
 # automatic
 ^F = $(notdir $^)
 # environment
-INVOCATION_ID = e584b32416d8458086364895411fccec
+INVOCATION_ID = 1160a9f76569452e9678282dab0cffe6
 # environment
 VSCODE_LOG_NATIVE = false
 # environment
@@ -154,8 +152,6 @@ USERNAME = boss
 GNOME_SETUP_DISPLAY = :1
 # automatic
 ?F = $(notdir $?)
-# environment
-NO_PROXY = 127.0.0.1
 # environment
 XDG_CURRENT_DESKTOP = GNOME
 # automatic
@@ -170,12 +166,10 @@ GNUMAKEFLAGS :=
 LOGNAME = boss
 # environment
 GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
-# environment
-PLATFORMIO_PATH = /home/boss/.platformio/python3/bin:/home/boss/.cargo/bin:/home/boss/.local/bin:/home/boss/bin:/usr/lib64/ccache:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/var/lib/snapd/snap/bin:/home/boss/.dotnet/tools:/home/boss/Documents/myPersonalScripts/bash_prog/:/home/boss/Documents/myPersonalScripts/bash_prog/
 # makefile
 .DEFAULT_GOAL := 
 # environment
-SYSTEMD_EXEC_PID = 2552
+SYSTEMD_EXEC_PID = 7695
 # environment
 HISTCONTROL = ignoredups
 # environment
@@ -187,25 +181,23 @@ USER = boss
 # default
 MAKE_VERSION := 4.3
 # environment
-MANAGERPID = 2380
+MANAGERPID = 7496
 # environment
 which_declare = declare -f
 # environment
 DEBUGINFOD_URLS = https://debuginfod.fedoraproject.org/ 
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 4084
+GIO_LAUNCHED_DESKTOP_FILE_PID = 8890
 # environment
 _ = /usr/bin/make
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
-JOURNAL_STREAM = 8:33458
+JOURNAL_STREAM = 8:57270
 # environment
 XDG_SESSION_CLASS = user
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
-# environment
-PLATFORMIO_IDE = 2.4.3
 # environment
 HOME = /home/boss
 # environment
@@ -213,7 +205,7 @@ QT_IM_MODULE = ibus
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-b2bce3dd-1.66.2-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-b2bce3dd-1.67.2-main.sock
 # default
 .RECIPEPREFIX := 
 # automatic
@@ -229,7 +221,7 @@ DOTNET_ROOT = /usr/lib64/dotnet
 # environment
 GDMSESSION = gnome
 # variable set hash-table stats:
-# Load=106/1024=10%, Rehash=0, Collisions=4/133=3%
+# Load=102/1024=10%, Rehash=0, Collisions=3/129=2%
 
 # Pattern-specific Variable Values
 
@@ -237,9 +229,9 @@ GDMSESSION = gnome
 
 # Directories
 
-# . (device 41, inode 2891487): 54 files, no impossibilities.
+# . (device 41, inode 2891487): 84 files, no impossibilities.
 
-# 54 files, no impossibilities in 1 directories.
+# 84 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -282,7 +274,6 @@ GNUmakefile:
 #  Failed to be updated.
 
 # files hash-table stats:
- 
 # Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
 # VPATH Search Paths
 
@@ -290,12 +281,13 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 62 / storage = 803 B / avg = 12 B
-# current buf: size = 8162 B / used = 803 B / count = 62 / avg = 12 B
+# strcache buffers: 1 (0) / strings = 92 / storage = 1251 B / avg = 13 B
+# current buf: size = 8162 B / used = 1251 B / count = 92 / avg = 13 B
 
-# strcache performance: lookups = 65 / hit rate = 4%
+# strcache performance: lookups = 95 / hit rate = 3%
 # hash-table stats:
-# Load=62/8192=1%, Rehash=0, Collisions=0/65=0%
-# Finished Make data base on Mon May  2 11:03:51 2022
+ 
+# Load=92/8192=1%, Rehash=0, Collisions=0/95=0%
+# Finished Make data base on Wed May 25 13:23:16 2022
 
  

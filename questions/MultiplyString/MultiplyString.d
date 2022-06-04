@@ -1,0 +1,1 @@
+MultiplyString.o: MultiplyString.cpp
